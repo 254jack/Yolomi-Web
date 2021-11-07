@@ -1,0 +1,166 @@
+.hero {
+    position: relative;
+}
+
+.head {
+    position: absolute;
+
+    color: white;
+}
+
+.column{
+    justify-content:space-between;
+}
+#logo{
+    position: absolute;
+    padding: 10px;
+    margin-right: 50px;
+}
+.menu{
+    margin-left: 500px;
+    float: right;
+}
+#shop{
+    float: right;
+    transform: translate(400px,25px);
+
+}
+#products{
+    transform: translate(300px,0px);
+}
+#home{
+    transform: translate(200px,-30px);
+}
+.wording{
+    position: absolute;
+    text-align: center;
+}
+h2{
+transform: translate(400px,250px);
+}
+#pcustomer{
+    transform: translate(400px,300px);
+
+}
+#msClick{
+
+transform:translate(400px,700px);
+}
+.images{
+width: max-content;
+height: 50%;
+margin:80px;
+margin-left: 00px;
+padding: 10px;
+}
+.images div{
+    width: min-content;
+    height: 50%;
+    float: left;
+    padding: 60px;
+    border: 6px solid tomato;
+
+    margin: 20px;
+    background-color: lightgoldenrodyellow;
+
+}
+#tshirt{
+    border-image-width: 300px;
+    flex: content;
+    width: 200px;
+    height:200px;
+}
+#s-tshirt{
+    transform: translate(-30px,-240px);
+    border-color: transparent;
+    background-color: transparent;
+}
+#pants{
+    flex-shrink:unset;
+    width: 200px;
+    height:200px;
+}
+#jacko{
+    transform: translate(-250px,-100px);
+    width: 200px;
+    height:200px;
+}
+#bag{
+    width: 200px;
+    height:200px;
+}
+#jacket{
+    width: 200px;
+    height:200px;
+}
+#shoe{
+    width: 200px;
+    height:200px;
+}
+#tladies{
+    width: 200px;
+    height:200px;
+}
+.column{
+    text-align: center;
+}
+.about-us{
+    transform: translate(0px,200px);
+    text-align: center;
+    width: contain;
+    color: white;
+    word-spacing: 10px;
+    
+}
+body{
+    margin: 10%;
+}
+#discount{
+    text-align:center;
+    top: -20px;
+    padding: 20px;
+    background-color: grey;
+    background-position: center;
+    transform: translate(0px,);
+    color: whitesmoke;
+}
+#twitter{
+    position: absolute;
+    transform: translate(60px,20px);
+}
+.social{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.714);
+    color: white;
+    margin-top:-30px;
+
+}
+.social div{
+    margin-top: 30px;
+}
+#copyright{
+    padding: 5px;
+    margin-top: 40px;
+}
+#item{
+    float: left;
+    transform: translate(-30px,45px);
+}
+#cost{
+    float: right;
+    transform: translate(30px,40px);
+}
+#men{
+font-family: sans-serif;
+max-width: 900px;
+position: relative;
+}
+h1:after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #000;
+    right: 0;
+    top: 50%;
+  }
