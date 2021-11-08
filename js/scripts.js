@@ -1,19 +1,18 @@
-$(document).ready(function () {
-    $("#shop").click(function () {
-        $("#item").val();
-        $("#cost").val();
-
+$(function() {
+    $("#home").on('click', function() {
+        alert("This is home demo!")
     });
 });
-function inTake()
+$(function() {
+    $("#products").on('click', function() {
+        alert("This is products demo!")
+    });
+});
+$(function() {
+    $("#shop").on('click', function() {
+        alert("Your shopping here!")
+    });
+});
+$(function() {
 
-
-$(function(){
-   var size= $("#t-shirt").val();
-
-
-    
-    var cost={
-        large:300,medium:250,small:200
-    }
-})
+});
