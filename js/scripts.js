@@ -49,4 +49,4 @@ $(function() {
     $("#men,#women").prop('checked', true)
     $(".imgy div").show();
     $(".images div").show();
-})
+});

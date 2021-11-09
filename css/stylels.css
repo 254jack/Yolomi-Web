@@ -114,11 +114,8 @@
     border-radius: 50%;
     width: 14px;
     height: 14px;
-<<<<<<< HEAD
     transform: translate(70px, -17px);
-=======
-    transform: translate(70px, -27px);
->>>>>>> master
+    transform: translate(70px, -27px)
 }
 
 #s-tshirt {
