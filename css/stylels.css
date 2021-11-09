@@ -242,26 +242,26 @@ body {
 
 #item2 {
     float: left;
-    transform: translate(-30px, 50px);
+    transform: translate(-30px, 75px);
     font-size: 15px;
 }
 
 #cost2 {
     float: right;
-    transform: translate(30px, 12px);
+    transform: translate(30px, 35px);
     font-size: 15px;
 }
 
 #item3 {
     float: left;
-    transform: translate(-30px, 50px);
+    transform: translate(-30px, 55px);
     font-size: 15px;
 }
 
 #cost3 {
     float: right;
     font-size: 15px;
-    transform: translate(30px, 8px);
+    transform: translate(30px, 17px);
 }
 
 #item4 {
@@ -273,7 +273,7 @@ body {
 #cost4 {
     float: right;
     font-size: 15px;
-    transform: translate(20px, 10px);
+    transform: translate(20px, 15px);
 }
 
 #item5 {
