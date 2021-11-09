@@ -4,11 +4,13 @@ Jackson Njoroge
 
 contact Author: Email:taixonj@gmail.com
                 phone:+254703137043
-
+ 
+                
 ## Description
 
   Yolomi is an online clothing shop that lets user choose/select his/her favourable wear . 
   It includes clothes for male and female gendas all age sets(Young,Old,Youth).
+
 
 
 ## Technologies Used
@@ -22,6 +24,7 @@ contact Author: Email:taixonj@gmail.com
  clone this repository to your deskop. https://github.com/254jack/Yolomi-assignment2.git
  Navigate to index.html and,
  open in your browser
+
 
 
 ## Development
