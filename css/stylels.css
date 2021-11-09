@@ -114,11 +114,7 @@
     border-radius: 50%;
     width: 14px;
     height: 14px;
-<<<<<<< HEAD
     transform: translate(70px, -17px);
-=======
-    transform: translate(70px, -27px);
->>>>>>> master
 }
 
 #s-tshirt {
@@ -337,4 +333,19 @@ h3:before {
     z-index: 1;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
+}
+
+@media only screen and (max-width:620px) {
+    .head,
+    .wording,
+    .social,
+    .menu,
+    .imgy,
+    .images,
+    .checkbox,
+    .about-us,
+    .column {
+        width: 100%;
+        height: min-content;
+    }
 }
