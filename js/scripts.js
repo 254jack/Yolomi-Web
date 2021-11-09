@@ -45,3 +45,8 @@ $(document).ready(function() {
         else $("#child").hide();
     });
 });
+$(function() {
+    $("#men,#women").prop('checked', true)
+    $(".imgy div").show();
+    $(".images div").show();
+})

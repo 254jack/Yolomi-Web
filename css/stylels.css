@@ -54,7 +54,7 @@
     color: white;
 }
 
-.img div:hover {
+.imgy div:hover {
     cursor: pointer;
     border: solid 5px rgb(180, 179, 81);
 }
@@ -72,14 +72,14 @@
 
 .imgy {
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     margin-left: 30%;
     display: flex;
 }
 
 .images {
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     margin-left: 30%;
     display: flex;
 }
@@ -109,6 +109,14 @@
     height: 100px;
 }
 
+#btn {
+    border: white;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    transform: translate(70px, -17px);
+}
+
 #s-tshirt {
     transform: translate(-30px, -140px);
     border-color: transparent;
@@ -125,6 +133,10 @@
 #bag {
     width: 100px;
     height: 100px;
+}
+
+#bag-name {
+    transform: translate(-30px, -130px);
 }
 
 #jacket {
