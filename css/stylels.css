@@ -54,9 +54,32 @@
     color: white;
 }
 
+.imgy div:hover {
+    cursor: pointer;
+    border: solid 5px rgb(180, 179, 81);
+}
+
+.imgy div {
+    width: 100%;
+    height: initial;
+    padding: 40px;
+    display: block;
+    display: none;
+    flex-flow: column;
+    margin: 10px;
+    background-color: rgb(243, 243, 232);
+}
+
+.imgy {
+    width: 100%;
+    padding: 10px;
+    margin-left: 30%;
+    display: flex;
+}
+
 .images {
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     margin-left: 30%;
     display: flex;
 }
@@ -71,13 +94,27 @@
     height: initial;
     padding: 40px;
     display: block;
+    display: none;
     margin: 10px;
     background-color: rgb(243, 243, 232);
+}
+
+#child {
+    color: chartreuse;
+    display: none;
 }
 
 #tshirt {
     width: 100px;
     height: 100px;
+}
+
+#btn {
+    border: white;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    transform: translate(70px, -27px);
 }
 
 #s-tshirt {
@@ -96,6 +133,10 @@
 #bag {
     width: 100px;
     height: 100px;
+}
+
+#bag-name {
+    transform: translate(-30px, -130px);
 }
 
 #jacket {
@@ -153,6 +194,7 @@ body {
     background-color: rgb(163, 42, 6);
     transform: translateY(-30PX);
     color: white;
+    padding: 5px;
 }
 
 #discount {
@@ -189,60 +231,72 @@ body {
 #item1 {
     float: left;
     transform: translate(-30px, 50px);
+    font-size: 15px;
 }
 
 #cost1 {
     float: right;
     transform: translate(20px, 50px);
+    font-size: 15px;
 }
 
 #item2 {
     float: left;
     transform: translate(-30px, 50px);
+    font-size: 15px;
 }
 
 #cost2 {
     float: right;
-    transform: translate(20px, -10px);
+    transform: translate(30px, 12px);
+    font-size: 15px;
 }
 
 #item3 {
     float: left;
     transform: translate(-30px, 50px);
+    font-size: 15px;
 }
 
 #cost3 {
     float: right;
+    font-size: 15px;
     transform: translate(30px, 8px);
 }
 
 #item4 {
     float: left;
-    transform: translate(-30px, 50px);
+    font-size: 15px;
+    transform: translate(-30px, 55px);
 }
 
 #cost4 {
     float: right;
+    font-size: 15px;
     transform: translate(20px, 10px);
 }
 
 #item5 {
     float: left;
+    font-size: 15px;
     transform: translate(-30px, 50px);
 }
 
 #cost5 {
     float: right;
-    transform: translate(20px, -10px);
+    font-size: 15px;
+    transform: translate(25px, 10px);
 }
 
 #item6 {
     float: left;
+    font-size: 15px;
     transform: translate(-30px, 50px);
 }
 
 #cost6 {
     float: right;
+    font-size: 15px;
     transform: translate(20px, 10px);
 }
 
